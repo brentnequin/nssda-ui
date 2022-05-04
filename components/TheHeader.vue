@@ -47,7 +47,7 @@
 </template>
 
 <script>
-import NAVLINKS from "~/static/navlinks.json"
+import NAVLINKS from "../static/navlinks.json"
 
 export default {
     data() {
