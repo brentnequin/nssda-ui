@@ -36,7 +36,7 @@
 export default {
     data() {
         return {
-            youtubeAPIKey: "AIzaSyAi1gBLN01QWzuBo5VPzRyCRGqlI9l58ds",
+            youtubeAPIKey: this.$config.youtubeApiKey,
             youtubeChannelID: "UCF7qdJAGi1I7OKp7MSMQ7Bg",
             isLive: false,
         }
