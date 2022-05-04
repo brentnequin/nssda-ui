@@ -1,0 +1,12 @@
+query Events {
+  events {
+    data {
+      attributes {
+        title
+        description
+        featured_image { data { attributes { url } } }
+				ministry { data { attributes { name } } }
+      }
+    }
+  }
+}

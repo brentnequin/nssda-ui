@@ -1,0 +1,9 @@
+query serviceTimes {
+  homepage {
+    data {
+      attributes {
+        service_times
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+query Ministry($name_id: String!) {
+  ministries(filters: { name_id: {eq: $name_id}}) {
+    data {
+      attributes {
+        name
+        description
+        events(sort: "datetime_start:ASC", filters: {datetime_start: {gt: "2022-03-04T00:00:00Z"}}) {
+            data {
+                attributes {
+                    title
+                    datetime_start
+                    featured_image {
+                      data {
+                        attributes {
+                          url
+                        }
+                      }
+                    }
+                    description
+                }
+            }
+        }
+        news {
+          data {
+            attributes {
+              title
+              cover_image {
+                data {
+                  attributes {
+                    url
+                  }
+                }
+              }
+            }
+          }
+        }
+        cover_image {
+          data {
+            attributes {
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+query Pastor($name_id: String!) {
+  pastors(filters: { name_id: {eq: $name_id}}) {
+    data {
+      attributes {
+        name
+        title
+        bio
+        image {
+          data {
+            attributes {
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+}

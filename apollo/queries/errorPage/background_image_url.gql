@@ -1,0 +1,15 @@
+query backgroundImageURL {
+  errorPage {
+    data {
+      attributes {
+        cover_image {
+          data {
+            attributes {
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+}

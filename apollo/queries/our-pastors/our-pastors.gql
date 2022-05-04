@@ -1,0 +1,20 @@
+query ourPastors {
+  pastors {
+    data {
+      id
+      attributes {
+        name_id
+        name
+        bio
+        title
+        image {
+          data {
+            attributes {
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Home",
+        "type": "item",
+        "to": "/"
+    },
+    {
+        "name": "Livestream",
+        "type": "item",
+        "to": "/livestream"
+    },
+    {
+        "name": "About",
+        "type": "dropdown",
+        "items": [
+            {
+                "name": "Our Pastors",
+                "type": "item",
+                "to": "/our-pastors"
+            },
+            {
+                "name": "Our Church",
+                "type": "item",
+                "to": "/our-church"
+            },
+            {
+                "type": "divider"
+            },
+            {
+                "name": "Ministries",
+                "type": "item",
+                "to": "/ministries"
+            }
+        ]
+    },
+    {
+        "name": "Connect",
+        "type": "dropdown",
+        "items": [
+            {
+                "name": "Get Involved",
+                "type": "item",
+                "to": "/get-involved"
+            },
+            {
+                "name": "Events",
+                "type": "item",
+                "to": "/events"
+            }
+        ]
+    },
+    {
+        "name": "Giving",
+        "type": "item",
+        "kind": "absolute",
+        "to": "https://northshoreil.adventistchurch.org/httpsadventistgivingorgOrgIDANF4EV"
+    }
+]

@@ -1,0 +1,11 @@
+html {
+    overflow-y: overlay;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.__nuxt-error-page {
+    z-index: 999;
+}

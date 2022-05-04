@@ -1,0 +1,15 @@
+query backgroundImageURL {
+  homepage {
+    data {
+      attributes {
+        background_image {
+          data {
+            attributes {
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+}

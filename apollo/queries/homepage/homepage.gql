@@ -1,0 +1,18 @@
+query HomePage {
+  homepage {
+    data {
+      attributes {
+        service_times
+        background_image {
+          data {
+            attributes {
+              url
+              width
+              height
+            }
+          }
+        }
+      }
+    }
+  }
+}

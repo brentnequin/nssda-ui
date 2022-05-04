@@ -1,0 +1,19 @@
+query ministries {
+  ministries {
+    data {
+      id
+      attributes {
+        name_id
+        name
+        description
+        cover_image {
+          data {
+            attributes {
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+}

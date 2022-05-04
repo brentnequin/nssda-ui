@@ -1,0 +1,33 @@
+{
+  "possibleTypes": {
+    "BlogBodyDynamicZone": [
+      "ComponentPostGallery",
+      "ComponentPostImage",
+      "ComponentPostParagraph",
+      "Error"
+    ],
+    "GenericMorph": [
+      "Blog",
+      "ComponentPostGallery",
+      "ComponentPostImage",
+      "ComponentPostParagraph",
+      "ErrorPage",
+      "Event",
+      "Homepage",
+      "I18NLocale",
+      "Ministry",
+      "NewsPost",
+      "Pastor",
+      "UploadFile",
+      "UsersPermissionsPermission",
+      "UsersPermissionsRole",
+      "UsersPermissionsUser"
+    ],
+    "NewsPostBodyDynamicZone": [
+      "ComponentPostGallery",
+      "ComponentPostImage",
+      "ComponentPostParagraph",
+      "Error"
+    ]
+  }
+}
