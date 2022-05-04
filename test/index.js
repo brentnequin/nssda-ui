@@ -1,7 +1,7 @@
 import Vue from "vue"
 import { jest } from '@jest/globals'
 
-import * as components from '@/.nuxt/components/index.js'
+import * as components from '~/.nuxt/components/index.js'
 import { BootstrapVue, IconsPlugin } from "bootstrap-vue"
 
 Vue.use(jest)

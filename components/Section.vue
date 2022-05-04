@@ -27,17 +27,12 @@ export default {
     data() {
         return {
             style: {
+                'background-image': this.bgImage ? 'url(' + this.bgImage + ')' : null,
                 'background-color': this.bgColor || 'white',
                 'background-repeat': 'no-repeat',
                 'background-position': 'center',
                 'background-size': 'cover',
             }
-        }
-    },
-
-    created() {
-        if (this.bgImage) {
-            this.style = Object.assign(this.style, {'background-image': 'url(' + this.bgImage + ')'})
         }
     }
 }

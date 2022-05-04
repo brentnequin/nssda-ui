@@ -1,11 +1,11 @@
 import { mount } from '@vue/test-utils'
-import TheHeader from '@/components/TheHeader.vue'
+import TheFooter from '~/components/TheFooter.vue'
 
-jest.mock('@/components/SocialIcon.vue', () => 'div')
+jest.mock('~/components/Social/Icon.vue', () => 'div')
 
-describe('TheHeader', () => {
+describe('TheFooter', () => {
   test('is a Vue instance', () => {
-    const wrapper = mount(TheHeader)
+    const wrapper = mount(TheFooter)
     expect(wrapper.vm).toBeTruthy()
   })
 })

@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import PreviewCard from '@/components/Bio/PreviewCard.vue'
+import PreviewCard from '~/components/Bio/PreviewCard.vue'
 import { expect, test } from '@jest/globals'
 
 describe('PreviewCard', () => {

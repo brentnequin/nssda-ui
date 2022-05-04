@@ -1,9 +1,9 @@
 import { mount } from '@vue/test-utils'
-import TheFooter from '@/components/TheFooter.vue'
+import TheHeader from '~/components/TheHeader.vue'
 
-describe('TheFooter', () => {
+describe('TheHeader', () => {
   test('is a Vue instance', () => {
-    const wrapper = mount(TheFooter)
+    const wrapper = mount(TheHeader)
     expect(wrapper.vm).toBeTruthy()
   })
 })
